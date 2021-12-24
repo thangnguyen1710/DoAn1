@@ -1,1 +1,120 @@
-
+.bg-dark{
+    background-color:#104A74!important; 
+  }
+  .navbar .container-fluid{
+    flex-wrap: wrap; 
+  }
+  .container-fluid{
+    padding:0;
+    margin: 0;
+  } 
+  .nav-item .nav-link button{
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: -10px;
+  }
+    .container-fluid .nav-top .navbar-brand{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 30px;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    color: white;
+  }
+  .container-fluid .nav-bottom .container-fluid {
+    justify-content: center;
+  }
+  .icon1{
+    font-size: 30px;
+  }
+  .follow{
+    font-size: 23px;
+  }
+  .container-fluid .nav-bottom .nav-link{
+    font-size: 15px;
+  }
+  .btn-success{
+    background-color: #4c4c4c;
+  }
+  .banner-men.row {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .col-sm-10{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+  }
+  .col-sm-10 .container{
+    /* padding-bottom:  500px; */
+  }
+  .men{
+    
+    font-size: 30px;
+    /* margin-top: -100px; */
+  }
+  .col-sm-1{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .banner-women.row{
+    margin-top:30px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .trendding{
+    color: black;
+    text-align: center;
+    margin-top: 70px;
+  }
+  .carousel-control-prev-icon{
+    color: black!important;
+  }
+  .rounded{
+    width: 100%;
+  }
+  section button{
+    border: 1px solid rgb(0, 0, 0)!important;
+    padding: 5px 8px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .seemore{
+    text-align: center;
+  }
+  footer{
+    margin-top: 30px;
+    background-image:url(../images/footerbackground.png);
+  }
+  .footer-left{
+    display: flex;
+  }
+  .container-fluid .col-sm-6 .service{
+    flex-wrap: wrap; 
+  }
+  .container-fluid .footer-left{
+    display: flex;
+  }
+  /* .container-fluid .footer-right{
+    align-items: center;
+  } */
+  .container-fluid .footer-right .col-sm-3{
+    padding-right: 0;
+  }
+  .container-fluid .footer-right img{
+    
+    margin:30px 0 50px 0;
+  }
+  .container-fluid .footer-right .container-fluid a{
+    padding-right: 10px;
+  }
+  .container-fluid .footer-right{
+    text-align: center;
+  }
+  footer .container-fluid a{
+    color: white;
+  }
+  footer .container .row{
+    padding-top: 300px;
+  }
+  
