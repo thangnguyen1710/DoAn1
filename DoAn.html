@@ -19,7 +19,7 @@
 <body> 
   <header>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+      <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-dark">
         <div class="container-fluid ">
           <div class="container-fluid nav-top">
             <ul  class="navbar-nav">
@@ -57,6 +57,10 @@
               </li>
             </ul>
           </div> 
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <div class="container-fluid nav-bottom">
             <div class="container-fluid">
             <ul  class="navbar-nav">
@@ -66,8 +70,15 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">NEWS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">BRAND</a>
+              <li class="nav-item dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  BRAND
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Pedro</a>
+                  <a class="dropdown-item" href="#">H&M</a>
+                  <a class="dropdown-item" href="#">Charles Keith</a>
+                </div>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">MAN</a>
@@ -86,6 +97,7 @@
               </li>
             </ul>
             </div>
+          </div>
           </div> 
         </div>
       </nav>
@@ -138,10 +150,10 @@
       <div class="banner-men row">
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
+          <div class="text">
+          <a href="#">MEN</a>
+          </div>
           <a href="#"><img src="images/men.jpg" alt="men" width="100%"></a>
-          <div class="container">
-          <a href="#" class="men">MEN</a>
-        </div>
         </div>
         <div class="col-sm-1">
           <a href="#"><img src="images/QC.gif" class="rounded" alt="QC"></a>
@@ -150,10 +162,12 @@
       <div class="banner-women row">
         <div class="col-sm-1"></div>
         <div class="col-sm-10">
+          <div class="text">
+          <a href="#">WOMEN</a>
+          </div>
           <a href="#"><img src="images/women.jpg" alt="men" width="100%"></a>
         </div>
         <div class="col-sm-1">
-          
         </div>
       </div>
     </div>
