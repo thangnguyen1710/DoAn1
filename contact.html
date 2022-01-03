@@ -145,18 +145,59 @@
                   
                   <label for="lname">Email</label>
                   <input type="text" id="lname" name="Email" placeholder="Your Email..">
-                  <label for="country">Country</label>
-                  <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
+                  <label for="store-type">Select a store type</label>
+                  <select id="store-type" name="store-type">
+                    <option value="Online Store">Online Store</option>
+                    <option value="Retail Store">Retail Store</option>
                   </select>
-                
-                  <input type="submit" value="Submit">
+                  <label for="Message">Message</label>
+                  <textarea id="Message" name="Message" placeholder="Your Message Here" style="height:200px"></textarea>
+                  <input type="submit" value="SEND">
                 </form>
               </div>
             </div>
             <div class="col-md-3"></div>
+          </div>
+        </div>
+        <div class="contact-bottom">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-3">
+                <h4>Mail Us</h4>
+                <p>Please send your comments and inquiries to:</p>
+                <p>(ATTN: Customer Service)
+                  BAGBAG STORE 
+                  6 Tai Seng Link, Level 8
+                  Singapore 534101</p>
+              </div>
+              <div class="col-md-4">
+                <h4>Speak To Us</h4>
+                <p>Monday - Friday 09:00 to 18:00 (GMT +7)
+                  Closed on Saturday Sunday and Public Holidays.</p>
+                <p>*Operating hours may be affected on Eves of Public Holidays.</p>
+                <p class="number"><ion-icon name="call-outline"></ion-icon> 19001009</p>
+                <p><ion-icon name="mail-outline"></ion-icon> <a href="#">BagBangStore@gmail.com</a></p>
+              </div>
+              <div class="col-md-3">
+                <h4>Find Us</h4>
+                <ion-icon name="location-outline"></ion-icon>
+                <a href="#">Store Location</a>
+                <div class="form">
+                  <form action="/action_page.php"> 
+                    <select id="Location" name="store-type">
+                      <option value="Online Store">India</option>
+                      <option value="Retail Store">VietNam</option>
+                      <option value="Retail Store">Singapore</option>
+                      <option value="Retail Store">America</option>
+                      <option value="Retail Store">Mexico</option>
+                    </select>
+                    <input type="submit" value="Find Location">
+                  </form>
+                </div>
+              </div>
+              <div class="col-md-1"></div>
+            </div>
           </div>
         </div>
     </div>
