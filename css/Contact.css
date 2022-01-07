@@ -1,6 +1,7 @@
 .contact .row{
         margin: 0;
-        background-color: black;
+        /* background-color: black; */
+        background-image: url(../images/banner-contact.jpg);
 }
 section{
         margin-top: 99px;
@@ -96,5 +97,8 @@ section{
         border-left: 1px solid rgb(226, 192, 192);
         border-right: 1px solid rgb(226, 192, 192);
 
+}
+@media screen {
+        
 }
       

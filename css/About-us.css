@@ -10,8 +10,11 @@
       section .slogan-banner .slogan h4{
               font-size: 50px;
               font-family: 'Vujahday Script', cursive;
-
       }
+      section .slogan-banner  h2{
+        font-size: 30px;
+        margin-bottom: 10px;
+}
       section .slogan-banner .slogan{
               justify-content: end;
       }
@@ -23,8 +26,12 @@
               margin-left: 50px;
               margin-top: 40px;
       }
+      section .story{
+              background-image: url(../images/banner-about3.jpg);
+      }
       .story .row{
               margin: 20px 0;
+              /* padding: 10px; */
       }
       .story-tittle{
               text-align: center;
@@ -34,28 +41,33 @@
               width: 100%;
       }
       .story .container-fluid .col-md-7{
-        /* margin: 20px; */
         font-size: 20px;
       }
       section .about-us{
               margin: 0;
-              padding: 10px;
-              background-color: #77787c;
+              padding: 40px;   
+              background-image: url(../images/istockphoto-1318863607-170667a.jpg);         
+      }
+      section .about-us .row{
+              margin: 0;
+      }
+      section .about-us .row .col-md-10{
+              background-color: black;
       }
       .why-choose{
               text-align: center;
               margin-bottom: 60px;
-              color: #000000;
+              color:  #f5b54e;
       }
       section .about-us .row .col-md-5 img{
         border-radius: 50%;
-        width: 70%;
+        width: 80%;
         height: 90%;
         margin-left: 30px;
       }
       section .about-us .row .col-md-7 p{
               font-size: 20px;
-              color: #000000;
+              color:  #f5b54e;
       }
       section .team{
               text-align: center;
@@ -86,12 +98,6 @@
       section .member .row .col-md-2{
         background-color: #f5b54e;
       }
-
-      @media screen and (max-width:816px) {
-        section{
-          margin-top: 140px;
-        }
-      }
       @media screen and (max-width:1003px) {
         section .slogan-banner .slogan-banner-right{
           font-size: 75px;
@@ -108,33 +114,65 @@
         section .slogan-banner .slogan-banner-right{
           margin-top: 30px;
         }
+        .story .container-fluid .col-md-7 p{
+                font-size: 17px;
+              }
+        section .about-us .row .col-md-7 p{
+                font-size: 17px;
+        }
+      }
+      @media screen and (max-width:830px) {
+        section{
+          margin-top: 147px;
+        }
+      }
+      @media screen and (max-width:800px) {
+        section .about-us .row .col-md-7 p{
+                font-size: 15px;
+        }
+      }
+      @media screen and (max-width:767px) {
+        section{
+          margin-top: 140px;
+        }
+        section .about-us .row .col-md-5{
+                text-align: center;
+        }
+        section .about-us .row .col-md-7 p{
+                font-size: 17px;
+        }
+        section .about-us .row .col-md-5 img{
+                width: 60%;
+        }
+        section .member .row .col-md-4 .infor{
+                margin-left: 35%;
+                margin-bottom: 30px;
+        }
+        section .member .row .col-md-4 img{
+                width: 60%;
+              }
+      }
+      @media screen and (max-width:702px) {
+        section{
+          margin-top: 140px;
+        }
       }
       @media screen and (max-width:650px) {
         section .slogan-banner .slogan h4{
                 font-size: 35px;
         }
       }
-      @media screen and (max-width: 575px) {
-        section .about-us .col-md-5{
-                margin-left: 30px;
-        }
-        section .member .row .infor p{
-                margin-left: 50px;
-        }
+      @media screen and (max-width:493px) {
         section .slogan-banner .slogan h4{
-                font-size: 32px;
+                font-size: 30px;
+        }
+        .slogan-banner-right{
+                font-size: 60px;  
+                
         }
       }
-      @media screen and (max-width:800px) {
-        section .about-us .row .col-md-5 img{
-          margin-left: 80px;
+      @media screen and (max-width:356px) {
+        section{
+                margin-top: 185px;
         }
       }
-      @media screen and (max-width:600px) {
-        section .about-us .row .col-md-5 img{
-          margin-left: 40px;
-        }
-      }
-      
-
-    
