@@ -1,7 +1,8 @@
 .contact .row{
         margin: 0;
         /* background-color: black; */
-        background-image: url(../images/banner-contact.jpg);
+        background-color: black;
+        /* background-image: url(../images/istockphoto-1341468013-170667a.jpg); */
 }
 section{
         margin-top: 99px;
@@ -11,11 +12,12 @@ section{
         padding-bottom: 15px;
         color: #f5b54e;
         margin: 30px 0;
+        background-color: black;
 }
 .contact input[type=text], .contact select {
         width: 100%;
-        padding: 10px 10px;
-        margin: 8px 0;
+        padding: 5px;
+        margin: 5px 0;
         display: inline-block;
         border: 1px solid #ccc;
         border-radius: 4px;
@@ -41,13 +43,13 @@ section{
       
 .contact .form {
         border-radius: 5px;
-        background-color: #000000;
+        /* background-color: #000000; */
         padding: 15px;
       }
 
 .contact input[type=text], select, textarea {
         width: 100%;
-        padding: 8px;
+        padding: 5px;
         border: 1px solid #ccc;
         border-radius: 4px;
         resize: vertical;
