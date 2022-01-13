@@ -24,13 +24,32 @@ font-weight: 500;
 color: #000;
 }
 .news .news-top{
-    margin: 30px 0;
+    margin: 50px 0;
 }
-.news .news-top .row .col-md-6{
-    padding: 0;
+.news-top .content-news-top{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    background-color: rgba(169, 169, 169, 0.479);
+    width: 89%;
+  }
+.news .news-top #logo-news{
+    padding: 5px 5px 0 0;
+}
+.news .news-top #news-top2 {
+    padding-left: 20px;
+}
+.news .news-top #news-top3 {
+    padding: 5px 5px 0 0;
+}
+.news .news-top #news-top4 {
+    padding: 5px 5px 0 0;
+}
+.news .news-logo{
+    width: 100%;
 }
 .news .news-top img{
-    /* width: 100%; */
+    width: 100%;
 }
 .news .news-hot{
     background-color: burlywood;
