@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title> Product</title>
+  <title>PRODUCT</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -132,16 +132,22 @@
   </header>
   <section>
     <div class="container-fluid">
+
         <div class="products">
+          <div class="CurrentPosition">
+            <a href="#" class ="CurrentPosition__Home"> Home </a>
+            <span class="CurrentPosition-separate"></span>
+            <span class="CurrentPosition__Page">Zara</span>
+          </div>
             <div class="container-fluid">
                 <div class="product">
                   <div class="row">
                       <div class="col-md-8">
-                          <div class="row">
+                          <div class="pro-top row">
                               <img src="images/P1.jpg" class="rounded" alt="p1">
                               <img src="images/p2.jpg" class="rounded" alt="p2">
                           </div>
-                          <div class="row">
+                          <div class="pro-mid row">
                               <img src="images/p3.jpg" class="rounded" alt="p1">
                               <img src="images/p4.jpg" class="rounded" alt="p2">
                           </div>
@@ -152,38 +158,42 @@
                       </div>
                       <div class="col-md-4">
                           <div class="p-name">
-                              <p>Name: Leather Top Handle Bag - White</p>
-                              <hr class="line">
+                              <p>Leather Top Handle Bag - White</p>
+                              <!-- <hr class="line"> -->
                           </div>
                           <div class="p-price">
-                              <p class="p-price">Price: 99.9$</p>
-                          <hr class="line">
+                              <p class="p-price">$99.9</p>
+                          <!-- <hr class="line"> -->
                           </div>
-                          <div class="p-color">
-                              <p class="p-color">Color:</p>
-                              <input type="radio" id="black" name="fav_language" >
-                              <label for="html">Black</label><br>
-                              <input type="radio" id="red" name="fav_language" >
-                              <label for="css">Red</label><br>
-                              <input type="radio" id="yallow" name="fav_language" >
-                              <label for="javascript">Yallow</label>
+                          <!-- <div class="p-color">
+                              <p>Color:</p>
+                              <input type="radio" id="Black" name="Color" value="Black" >
+                              <label for="Black">Black</label><br>
+                              <input type="radio" id="Red" name="Color" value="Red">
+                              <label for="Red">Red</label><br>
+                              <input type="radio" id="Yellow" name="Color" value="Yellow">
+                              <label for="Yellow">Yellow</label>
                               <hr class="line">
                           </div>
                           <div class="p-size">
-                              <p class="p-color">Size:</p>
-                              <input type="radio" id="M" name="fav_language" >
+                              <p>Size:</p>
+                              <input type="radio" id="M" name="Size" >
                               <label for="html">M</label><br>
-                              <input type="radio" id="L" name="fav_language" >
+                              <input type="radio" id="L" name="Size" >
                               <label for="css">L</label><br>
-                              <input type="radio" id="XL" name="fav_language" >
+                              <input type="radio" id="XL" name="Size" >
                               <label for="javascript">XL</label>
                               <hr class="line">
+                          </div> -->
+                          <div class="buy-button">
+                            <!-- <button type="button" class="btn">BUY</button> -->
+                            <button type="button" class="btn">ADD TO CART <ion-icon name="cart-outline"></ion-icon></button>
                           </div>
                           <div class="container mt-2">
                             
                             <ul class="nav nav-tabs">
                               <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#home">Product Decription</a>
+                                <a class="nav-link active" data-toggle="tab" href="#home">Product Description</a>
                               </li>
                               <li class="nav-item">
                                 <a class="nav-link" data-toggle="tab" href="#menu1">Details</a>
@@ -192,8 +202,8 @@
                             
                             <div class="tab-content">
                               <div id="home" class="container tab-pane active"><br>
-                                <h3>Product Decription</h3>
-                                <a href="#"><ion-icon name="download-outline"></ion-icon> Link Download Product Decription</a>
+                                <h3>Product Description</h3>
+                                <a href="#"><ion-icon name="download-outline"></ion-icon> Download Product Decription</a>
                                 <p>Find your next sturdy office wear companion in this pair of Leather Pointed Slingback Pumps. Our latest iteration sees a 55mm block heel update, adding a touch more comfort and security along with the gold buckle detailing on the slingback straps. Crafted with smooth kid leather in an sweet nude hue that is easy on the eyes, these pumps will be a perfect match for most work outfits in your wardrobe. Slip this pair on and let the pointed toe silhouette create the illusion of elongated feet in a cinch.</p>
                               </div>
                               <div id="menu1" class="container tab-pane fade"><br>
@@ -208,20 +218,49 @@
                             </div>
                           </div>
                           <hr class="line">
-                          <div class="feedback">
+                          <!-- <div class="feedback">
                               <p>Feedback:</p> 
                               <div class="form">
-                                <form action="/action_page.php">
-                                  <textarea id="Message" name="Message" placeholder="Your Message Here" style="height:200px"></textarea>
+                                <form action="#">
+                                  <textarea id="Message" name="Message" placeholder="Your Message Here"></textarea>
                                   <button type="button" class="btn">SEND</button>
                                 </form>
                               </div>
-                          </div>
-                          <div class="buy-button">
-                            <button type="button" class="btn">BUY</button>
-                            <button type="button" class="btn">ADD TO CART</button>
-                          </div>
+                          </div> -->
                       </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="feedback">
+                    <p>Feedback:</p> 
+                    <div class="form">
+                      <form action="#">
+                        <textarea id="Message" name="Message" placeholder="Your Message Here"></textarea>
+                        <button type="button" class="btn">SEND</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="comment">
+                    <h3><i>Comments:</i></h3>
+                    <div class="container">
+                      <div class="comment-user">
+                        <a href="#"><img src="images/lebron.jpg" alt="lebron">Lebron Jame</a>
+                        <p>Good!</p>
+                        <hr>
+                      </div>
+                      <div class="comment-user">
+                        <a href="#"><img src="images/kyrie.jpg" alt="lebron">Kyrie Irving</a>
+                        <p>Niceeeeeee</p>
+                        <hr>
+                      </div>
+                      <div class="comment-user">
+                        <a href="#"><img src="images/doremon.png" alt="lebron">Doremon</a>
+                        <p>素晴らしい!!!</p>
+                        <hr>
+                      </div>
+                    </div>
                   </div>
                 </div>
                 <div class="also-like">

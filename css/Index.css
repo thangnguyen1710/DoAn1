@@ -93,7 +93,7 @@
     .banner-men.row{
       margin-top: 10px;
     }
-    .rounded{
+    .banner-men .row .rounded{
       display: none;
     }
     .col-sm-4{

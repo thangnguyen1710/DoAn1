@@ -1,106 +1,124 @@
+.CurrentPosition{
+        padding: 10px 0px 0px 30px;
+}
+.CurrentPosition__Home{
+  text-decoration: none;
+  color: #333;
+}
+.CurrentPosition__Home:hover{
+  text-decoration: none;
+  color: #FCA311;
+}
+.CurrentPosition{
+  display: flex;
+  color:  #333;
+}
+.CurrentPosition-separate{
+  display:block;
+  height: 2px 16px 0;
+  margin: 0 16px;
+  border-left: 1px solid #eaeaea;
+}
+.CurrentPosition__Page{
+  font-weight: 500;
+  color: #000;
+}
 .contact .row{
-        margin: 0;
-        /* background-color: black; */
-        background-color: black;
-        /* background-image: url(../images/istockphoto-1341468013-170667a.jpg); */
+        margin:0;
 }
 section{
         margin-top: 99px;
 }
-.contact .col-md-6{
-        box-shadow: 0 0 3px 3px gray;
-        padding-bottom: 15px;
-        color: #f5b54e;
-        margin: 30px 0;
-        background-color: black;
+.contact{
+        background-color: burlywood;
+        margin-top: 70px;
+        box-shadow: 10px 10px 10px 10px gray;
 }
-.contact input[type=text], .contact select {
+.contact .col-md-7 img{
         width: 100%;
-        padding: 5px;
-        margin: 5px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-      }
-      
-.contact input[type=submit] {
-        width: 100%;
-        background-color: #f5b54e;
-        color: rgb(0, 0, 0);
-        padding: 10px 10px;
-        margin: 18px 0;
+}
+.contact .col-md-7 h3{
+        margin: 5px 10px;
+}
+.contact .col-md-5 form{
+        margin-top: 40px;
+}
+.contact .name{
+        display: flex;
+}
+.contact .name .fist-name{
+        margin-right: 10px;
+}
+.contact .col-md-5 input{
         border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 20px;
-      }
-      
-.contact input[type=submit]:hover {
-        background-color: #df4949;
-        color: #f5b54e;
-      }
-      
-.contact .form {
-        border-radius: 5px;
-        /* background-color: #000000; */
-        padding: 15px;
-      }
-
-.contact input[type=text], select, textarea {
-        width: 100%;
-        padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        resize: vertical;
-      }
-.contact-bottom .row{
-        padding: 30px 0;
+        border-bottom: 1px solid black;
+        font-size: 17px;
+        background-color: burlywood;
 }
-.contact-bottom .row{
-        background-color: black;
-        text-align: center;
-        color: #f5b54e;
-        margin: 0;
-}
-.contact-bottom .row a{
-        color: #f5b54e;
-}
-.contact-bottom .row form{
-        margin-top: 30px;
-        color: #f5b54e;
-        background-color: black;
-}
-.contact-bottom  select {
-        width: 60%;
-        padding: 4px;
-        border: 1px solid rgb(226, 192, 192);
-        border-radius: 4px;
-        resize: vertical;
-        color: #f5b54e;
-        background-color: black;
-      }
-.contact-bottom .row h4{
-        margin: 50px 0;
-        font-size: 30px;
-}
-.contact-bottom input[type=submit] {
-        background-color: #000000;
-        color: #f5b54e;
-        border: 1px solid rgb(226, 192, 192);
-        border-radius: 4px;
-        padding: 2px;
-      }
-.contact-bottom input[type=submit]:hover {
-        background-color: #f5b54e;
-        color: #000000;
-      }
-.contact-bottom .row .col-md-4{
-        border-left: 1px solid rgb(226, 192, 192);
-        border-right: 1px solid rgb(226, 192, 192);
-
-}
-@media screen {
+.contact .col-md-5 .gmail input{
+        width: 95%;
+        margin-top: 15px;
         
 }
-      
+/* .contact input:focus{
+        background-color: rgb(224, 160, 62);
+} */
+.contact .col-md-5 .messenger textarea{
+        background-color: burlywood;
+        margin-top: 30px;
+        resize: none;    
+}
+.contact .col-md-5 button{
+        padding: 5px 10px;
+        background-color: rgb(34, 34, 34);
+        border: none;
+        border-radius: 5px;
+        font-size: 17px;
+        margin-top: 20px;
+        color: gray;
+}
+.contact .col-md-5 button:hover{
+        background-color:khaki;
+        color: black;
+}
+.contact .col-md-5 h3{
+        margin-top: 30px;
+}
+.contact .col-md-5 li{
+        list-style-type: none;
+        margin-top: 20px;
+}
+.contact .col-md-5 .icon1{
+        color: gray;
+        margin-right: 10px;
+}
+/* .contact .name label{
+        font-size: 20px;
+} */
+.contact .contact-bottom{
+        text-align: center;
+        padding-bottom: 30px; 
+}
+.contact .contact-bottom h3{
+        margin-bottom: 20px;
+}
+.contact .contact-bottom button{
+        background-color: rgb(34, 34, 34);
+        color: gray;
+        margin-top: 30px;
+        font-size: 17px;
+        padding: 2px 15px;
+        border-radius: 5px;
+        border: none;
+}
+.contact .contact-bottom button:hover{
+        background-color:khaki;
+        color: black;
+
+}
+.contact .contact-bottom select{
+        width: 70%;
+        border-radius: 2px;
+        background-color: cadetblue;
+}
+

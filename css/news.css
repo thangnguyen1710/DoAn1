@@ -1,0 +1,119 @@
+.CurrentPosition{
+    padding: 10px 0px 0px 30px;
+}
+.CurrentPosition__Home{
+text-decoration: none;
+color: #333;
+}
+.CurrentPosition__Home:hover{
+text-decoration: none;
+color: #FCA311;
+}
+.CurrentPosition{
+display: flex;
+color:  #333;
+}
+.CurrentPosition-separate{
+display:block;
+height: 2px 16px 0;
+margin: 0 16px;
+border-left: 1px solid #eaeaea;
+}
+.CurrentPosition__Page{
+font-weight: 500;
+color: #000;
+}
+.news .news-top{
+    margin: 30px 0;
+}
+.news .news-top .row .col-md-6{
+    padding: 0;
+}
+.news .news-top img{
+    /* width: 100%; */
+}
+.news .news-hot{
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px gray;
+    padding: 20px 30px;
+
+}
+.news .news-tittle{
+    margin: 20px 0;
+}
+.news .news-hot h4{
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+}
+.news .news-hot h6{
+    font-size: 20px;
+    color: black;
+}
+.news .news-hot .col-md-3{
+    background-color: rgb(75, 65, 65);
+    margin-left: 8px;
+    max-width: 24%;
+    padding: 20px 10px;
+    border-radius: 7px;
+    /* transition: all 2s ease-in-out;   */
+}
+/* .news .news-hot .col-md-3:hover{
+    transition: scale(1.2);
+} */
+.news .news-hot img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.news .news-hot p{
+    color: black;
+}.news .more-news .row .col-md-7 .container-fluid{
+    margin-top: 15px;
+}
+.news .more-news{
+    margin-top: 45px;
+}
+.news .more-news .col-md-7 .more-news-tittle{
+    width: 45%;
+    background-color: burlywood;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+}
+.news .more-news .col-md-7 .col-md-10 p{
+   color: black;
+}
+.news .more-news .col-md-7 .col-md-10 h5{
+    color: black;
+ }
+.news .more-news .col-md-7 .container-fluid .row{
+    background-color: rgb(110, 109, 107);
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 5px;
+ }
+.news .more-news img{
+    width: 100%;
+    border-radius: 7px;
+}
+.news .more-news .col-md-4 .more-news-tittle{
+    background-color: burlywood;
+    font-size: 20px;
+    padding-left: 5px;
+    margin-bottom: 50px;
+}
+    /* .news .more-news .col-md-1{
+        border-left:1px solid gray ;
+    } */
+ .news .more-news .col-md-4{
+    background-color: rgb(110, 109, 107);
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.news .more-news .col-md-4 li{
+    list-style-type: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
