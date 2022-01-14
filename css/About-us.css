@@ -45,9 +45,6 @@
         font-size: 30px;
         margin-bottom: 10px;
 }
-      section .slogan-banner .slogan{
-              justify-content: end;
-        }
       .slogan-banner-left{
               width: 75%;
       }
@@ -81,6 +78,12 @@
       }
       .why-choose .row{
         margin: 50px 0;
+      }
+      .why-choose img{
+              width: 100%;
+      }
+      .why-choose p{
+              font-size: 20px;
       }
       .why-choose h2{
               text-align: center;
@@ -117,61 +120,33 @@
       section .member .row .col-md-2{
         background-color: #f5b54e;
       }
-      @media screen and (max-width:1003px) {
-        section .slogan-banner .slogan-banner-right{
-          font-size: 75px;
-          margin-top: 55px;
-        }
-        section .member .row .infor{
-                margin-left: 20%;
-        }
+@media screen and (max-width:1226px) {
         section .slogan-banner .slogan h4{
-                font-size: 40px;
+                font-size: 45px;
         }
-      }
-      @media screen and (max-width:950px) {
-        section .slogan-banner .slogan-banner-right{
-          margin-top: 30px;
-        }  
-      }
-      @media screen and (max-width:830px) {
-        section{
-          margin-top: 147px;
+        
+}
+@media screen and (max-width:1199px) {
+        .about-us .story .col-md-7 p{
+                font-size: 16px;
+        }         
+        
+}
+@media screen and (max-width:991px) {
+        .about-us .story .col-md-7 p{
+                font-size: 11px;
+        }         
+        .why-choose p{
+                font-size: 15px;
         }
-      }
-      @media screen and (max-width:767px) {
-        section{
-          margin-top: 140px;
+}
+@media screen and (max-width:767px) {
+        .about-us .story .col-md-7 p{
+                font-size: 20px;
+                margin-top: 10px;
+        }         
+        .why-choose p{
+                margin-top: 10px;
+                font-size: 20px;
         }
-        section .member .row .col-md-4 .infor{
-                margin-left: 35%;
-                margin-bottom: 30px;
-        }
-        section .member .row .col-md-4 img{
-                width: 60%;
-              }
-      }
-      @media screen and (max-width:702px) {
-        section{
-          margin-top: 140px;
-        }
-      }
-      @media screen and (max-width:650px) {
-        section .slogan-banner .slogan h4{
-                font-size: 35px;
-        }
-      }
-      @media screen and (max-width:493px) {
-        section .slogan-banner .slogan h4{
-                font-size: 30px;
-        }
-        .slogan-banner-right{
-                font-size: 60px;  
-                
-        }
-      }
-      @media screen and (max-width:356px) {
-        section{
-                margin-top: 185px;
-        }
-      }
+}
