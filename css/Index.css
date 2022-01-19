@@ -1,8 +1,32 @@
-
- 
-  section{
-    margin-top: 99px;
+   section{
+    margin-top: 99.5px;
   }
+  .CurrentPosition{
+    padding: 10px 0px 0px 30px;
+    margin-bottom: 5px;
+}
+.CurrentPosition__Home{
+text-decoration: none;
+color: #333;
+}
+.CurrentPosition__Home:hover{
+text-decoration: none;
+color: #FCA311;
+}
+.CurrentPosition{
+display: flex;
+color:  #333;
+}
+.CurrentPosition-separate{
+display:block;
+height: 2px 16px 0;
+margin: 0 16px;
+border-left: 1px solid #eaeaea;
+}
+.CurrentPosition__Page{
+font-weight: 500;
+color: #000;
+}
   .banner-men.row {
     margin-top: 40px;
     margin-left: 0;
@@ -13,10 +37,6 @@
     padding-right: 0;
     
   }
-  /* .col-sm-10{
-    
-    text-align: center;
-  } */
   .text >a {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -84,28 +104,8 @@
     text-decoration: none;
     color: rgb(114, 76, 76);
   }
-  @media screen and (max-width:775px) {
-    section{
-      margin-top: 140px;
-    }
+@media screen and (max-width:830px) {
+  section{
+    margin-top: 147.5px;
   }
-  @media screen and (max-width:575px) {
-    .banner-men.row{
-      margin-top: 10px;
-    }
-    .banner-men .row .rounded{
-      display: none;
-    }
-    .col-sm-4{
-      width: 33.3%
-    }
-  }
-  @media screen and (max-width:825px) {
-    #demo1 .carousel-control-next{
-      right: -31px;
-    }
-    #demo1 .carousel-control-prev{
-      right: -31px;
-    }
-  }
-
+}

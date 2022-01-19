@@ -38,24 +38,21 @@
               margin-top: 30px;
         }
       section .slogan-banner .slogan h4{
-              font-size: 50px;
+              font-size: 45px;
               font-family: 'Vujahday Script', cursive;
       }
       section .slogan-banner  h2{
         font-size: 30px;
         margin-bottom: 10px;
 }
-      .slogan-banner-left{
+      /* .slogan-banner-left{
               width: 75%;
-      }
+      } */
       .slogan-banner-right{
               font-size: 80px;  
               margin-left: 50px;
-              margin-top: 40px;
+              margin-top: 30px;
       }
-      /* section .story{
-              background-image: url(../images/banner-about3.jpg);
-      } */
       .story .row{
               margin: 50px 0;
               padding: 40px 20px;
@@ -71,7 +68,8 @@
               border-radius: 10px;
       }
       .story .container .col-md-7 p{
-        font-size: 20px;
+        font-size: 19px;
+        font-family: 'Belleza', sans-serif;
       }
       .why-choose{
               margin-top: 50px;
@@ -84,6 +82,7 @@
       }
       .why-choose p{
               font-size: 20px;
+              font-family: 'Belleza', sans-serif;
       }
       .why-choose h2{
               text-align: center;
@@ -132,12 +131,29 @@
         }         
         
 }
+@media screen and (max-width:1226px) {
+        section .slogan-banner .slogan h4{
+                font-size: 38px;
+        }
+        
+}
 @media screen and (max-width:991px) {
         .about-us .story .col-md-7 p{
                 font-size: 11px;
         }         
         .why-choose p{
                 font-size: 15px;
+        }
+        section .slogan-banner .slogan h4{
+                font-size: 30px;
+        }
+        section .slogan-banner ion-icon{
+                font-size: 60px;
+        }
+}
+@media screen and (max-width:830px) {
+        section{
+                margin-top: 147.5px;
         }
 }
 @media screen and (max-width:767px) {

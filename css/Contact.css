@@ -30,9 +30,9 @@ section{
         margin-top: 99px;
 }
 .contact{
-        background-color: burlywood;
+        background-color: #F9F5EF;
         margin-top: 70px;
-        box-shadow: 10px 10px 10px 10px gray;
+        box-shadow: 10px 10px 5px #aaaaaa
 }
 .contact .col-md-7 img{
         width: 100%;
@@ -54,7 +54,7 @@ section{
         width: 100%;
         border-bottom: 1px solid black;
         font-size: 17px;
-        background-color: burlywood;
+        background-color: #F9F5EF;
 }
 .contact .col-md-5 .gmail input{
         width: 100%;
@@ -65,7 +65,7 @@ section{
         background-color: rgb(224, 160, 62);
 } */
 .contact .col-md-5 .messenger textarea{
-        background-color: burlywood;
+        background-color: #F9F5EF;
         margin-top: 30px;
         resize: none;    
         width: 100%;
@@ -123,4 +123,18 @@ section{
         border-radius: 2px;
         background-color: cadetblue;
 }
-
+@media screen and (max-width:991px) {
+        .contact .contact-top li a{
+                font-size: 13px;
+        }
+        .contact .contact-top li p{
+                font-size: 13px;
+        }
+        .contact .contact-bottom .col-md-4 h3{
+          font-size: 22px;
+        }
+        .contact .contact-bottom .col-md-4 p{
+                font-size: 14px;
+        }
+}
+    
