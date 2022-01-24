@@ -65,6 +65,10 @@
         color: black;
         /* font-size: 16px; */
       }
+      .navbar-light .navbar-nav .active .nav-link{
+        background-color: black;
+        color: white;
+      }
       .dropdown .dropdown-menu a:hover{
         background-color: black;
         color: white;

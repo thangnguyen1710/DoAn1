@@ -106,7 +106,7 @@ color: #000;
 .news .news-hot .col-md-3{
     background-color: #F9F5EF;
     margin-left: 7px;
-    max-width: 24%;
+    margin-bottom: 10px;
     padding: 20px 10px;
     border-radius: 7px;
     box-shadow: 5px 5px 5px #aaaaaa;
@@ -253,6 +253,9 @@ color: #000;
     }
 }
 @media screen and (max-width:767px) {
+    .news .news-hot .col-xs-12{
+        width: 100%;
+    }
     .news-top .content-news-top{
         top: 65%;
     }
