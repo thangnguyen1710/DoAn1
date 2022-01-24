@@ -38,17 +38,23 @@ color: #000;
     padding: 0px 5px;
 }
 .news .news-top .content-news-top:hover{
-    text-decoration:underline;
+    text-decoration:none;
 }
 .news .news-top #news-top1 #content-news-top1{
     font-size: 40px;
     color: black;
     font-family: 'Cormorant Infant', serif;
 }
+.news .news-top #aa:hover{
+    text-decoration: none;
+}
 .news .news-top #news-top1 #content-news-top2{
     font-size: 20px;
     color: black;
     font-family: 'Belleza', sans-serif;
+}
+.container .news a:hover{
+    text-decoration: none;
 }
 .news .news-top #logo-news{
     padding: 0 5px 0 0;
@@ -79,8 +85,9 @@ color: #000;
 .news .news-hot{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px gray;
-    padding: 20px 30px;
+    border: 1px solid gray;
+    padding: 30px;
+    padding-bottom: 60px;
 
 }
 .news .news-tittle{
@@ -102,7 +109,7 @@ color: #000;
     max-width: 24%;
     padding: 20px 10px;
     border-radius: 7px;
-    box-shadow: 10px 10px 5px #aaaaaa;
+    box-shadow: 5px 5px 5px #aaaaaa;
 }
 .news .news-hot img{
     width: 100%;
@@ -121,12 +128,13 @@ color: #000;
     margin-top: 45px;
 }
 .news .more-news .col-md-7 .more-news-tittle{
-    width: 45%;
-    background-color: #FCA311;
-    font-size: 20px;
-    padding-left: 5px;
-    margin-bottom: 50px;
-    width: 100%;
+    font-size: 16px;
+    width: 50%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(90deg, #FCA311, rgb(204, 204, 255));
+    padding: 11px 0;
 }
 .news .more-news .col-md-7 .col-md-2{
     padding: 0;
@@ -137,6 +145,7 @@ color: #000;
 }
 .news .more-news .col-md-7 .col-md-10 h5{
     color: black;
+    font-weight: 600;
     font-family: 'Cormorant Infant', serif;
  }
 .news .more-news .col-md-7 .container-fluid .row{
@@ -151,16 +160,15 @@ color: #000;
     border-radius: 7px;
 }
 .news .more-news .col-md-4 .more-news-tittle{
-    background-color: #FCA311;
-    font-size: 20px;
-    padding-left: 5px;
-    margin-bottom: 50px;
+    font-size: 16px;
     width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background: linear-gradient(90deg, #FCA311, rgb(204, 204, 255));
+    padding: 11px 0;
 }
-    /* .news .more-news .col-md-1{
-        border-left:1px solid gray ;
-    } */
- .news .more-news .col-md-4{
+.news .more-news .col-md-4{
     padding: 10px 5px;
     border-radius: 10px;
 }
