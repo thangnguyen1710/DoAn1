@@ -1,0 +1,49 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #104A74;
+    --border-color: #dbdbdb;
+}
+    .container-first-row.brand__banner img{
+        margin-top: 10px;
+        width: 100%;
+        height:auto;
+    }
+    .container-second-row.row{
+        justify-content: center;
+        margin: 10px 0;
+    }
+    .container-second-row video{
+        width : 90%;
+        height: auto;
+        text-align: center;
+    }    
+    .container-third-row {
+        margin-top: 5px;
+    }
+    .brand-introduction.row{
+        width: 90%;
+        margin: 10px auto;
+    }
+    .brand-introduction-content{
+        display: flex;
+        align-items: center;
+        font-family: 'Belleza', sans-serif;
+    }
+    .brand-introduction-img img{
+        width:70%;
+    }
+    .brand-introduction-img{
+        display: flex;
+        justify-content: center;
+    }
+    .brand-introduction-content, .brand-introduction-img{
+        margin-top: 10px;
+    }
+    @media (max-width: 768px){
+        .brand-introduction-img img{
+            width: 100%;
+        }
+        
+    }

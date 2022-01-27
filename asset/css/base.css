@@ -1,0 +1,43 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #FCA311;
+    --border-color: #dbdbdb;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+/* Button style */
+.btn-default{
+    width: 160px;
+    height: 34px;
+    text-decoration: none;
+    border:none;
+    border-radius: 2px;
+    padding:10 20px;   
+    outline:none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 16px;
+    font-size: 16px;
+    
+}
+.btn-default:hover {
+    text-decoration: none;
+    color:var(--white-color);
+}
+.btn-default.btn--normal:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color:var(--white-color);
+}
+
+.btn-default.btn--primary{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
